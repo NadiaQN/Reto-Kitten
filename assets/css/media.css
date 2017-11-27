@@ -1,0 +1,25 @@
+/*primer media para pantalla mediana*/
+@media (min-width: 950px) and (max-width: 1100px){
+  .kitten{
+    background-image: url(../img/dawn.png);
+    background-size: cover;
+    width: 100%;
+  }
+  .col-12{
+    content: url(../img/kitten-large.png);
+    width: 30em;
+    margin-top: 50%;
+    margin-left: 20%;
+  }
+}
+/*segundo media para pantalla pequeña*/
+@media (min-width: 400px) and (max-width: 949px){
+  .kitten{
+    background-image: url(../img/night.jpg);
+  }
+  .col-12{
+    content: url(../img/kitten-small.png);
+    width: 25em;
+    margin-left: 10%;
+  }
+}

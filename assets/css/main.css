@@ -1,0 +1,14 @@
+body{
+  margin: 0 auto;
+}
+/*estilos del section*/
+.kitten{
+  background-image: url(../img/sunny-day.jpg);
+  width: 100%;
+  text-align: center;
+}
+/*estilos de la imagen en col-12*/
+img{
+  margin-top: 50%;
+  width: 30em;
+}
